@@ -1,5 +1,5 @@
 {
-  "name": "wordpress/nonce",
+  "name": "vvasiloi/wp-nonce",
   "description": "OOP wrapper for WordPress Nonce.",
   "type": "package",
   "keywords": [

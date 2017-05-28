@@ -1,4 +1,4 @@
-Wordpress Nonce
+WP Nonce
 ======
 
 
@@ -81,7 +81,7 @@ class RequestHeadersContext implements ContextInterface
 
 ## Installation
 
-`composer require wordpress/nonce`
+`composer require vvasiloi/wp-nonce`
 
 ## Requirements
 
