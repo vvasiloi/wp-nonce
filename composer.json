@@ -1,0 +1,35 @@
+{
+  "name": "wordpress/nonce",
+  "description": "OOP wrapper for WordPress Nonce.",
+  "type": "package",
+  "keywords": [
+    "wordpress",
+    "nonce",
+    "wordpress nonce"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vasiloi Victor",
+      "email": "vasiloi.victor@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "symfony/http-foundation": "^3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wordpress\\Nonce\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wordpress\\Nonce\\Tests\\": "tests/src/"
+    }
+  }
+}
